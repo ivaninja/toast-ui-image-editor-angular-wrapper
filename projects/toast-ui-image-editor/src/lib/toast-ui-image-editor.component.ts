@@ -49,7 +49,8 @@ interface IImageEditor extends ImageEditor {
   `,
   styleUrls: [
     '../../../../node_modules/tui-color-picker/dist/tui-color-picker.css',
-    '../../../../node_modules/tui-image-editor/dist/tui-image-editor.css'
+    '../../../../node_modules/tui-image-editor/dist/tui-image-editor.css',
+    './custom-styles.css'
   ],
   encapsulation: ViewEncapsulation.None
 })
